@@ -1,5 +1,5 @@
 # ============================================================
-# FlowAI Studio - CD Pipeline (自动部署)
+# Make Your Own Flow Studio - CD Pipeline (自动部署)
 # ============================================================
 # 触发条件:
 #   - push to main: 仅验证 Docker build（不 push）

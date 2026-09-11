@@ -1,5 +1,5 @@
 # ============================================================
-# FlowAI Studio - CI Pipeline
+# Make Your Own Flow Studio - CI Pipeline
 # ============================================================
 # 触发条件: push/PR to main
 # 流程: lint → type-check → test → build
