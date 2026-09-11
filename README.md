@@ -119,13 +119,13 @@ curl -s -X POST http://localhost:3000/api/rag/retrieve \
 ## 项目结构说明
 
 ```text
-├── flowai-studio-frontend   # 前端工程
+├── frontend   # 前端工程
 │   ├── src/components       # 通用组件及工作流节点组件
 │   ├── src/pages            # 业务页面视图
 │   ├── src/store            # 全局状态管理切片
 │   ├── src/router           # 路由导航配置
 │   └── src/types            # TypeScript 类型定义
-└── flowai-studio-backend    # 后端工程
+└── backend    # 后端工程
     ├── src/modules          # 业务逻辑模块 (AI, App, Workflow, RAG, Skill, MCP, User)
     ├── src/common           # 公共中间件、装饰器、拦截器
     ├── src/config           # 环境变量与全局配置
